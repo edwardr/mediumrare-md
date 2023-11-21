@@ -1,0 +1,32 @@
+:root {
+  --header-maximum-width: 1920;
+}
+
+nav {
+  margin-bottom: 0;
+}
+
+header,
+footer,
+main {
+  padding: 1rem;
+}
+
+footer p {
+  display: block;
+  text-align: center;
+}
+
+header,
+footer {
+  max-width: var(--header-maximum-width);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: unset;
+}
