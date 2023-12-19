@@ -1,5 +1,5 @@
 :root {
-  --header-maximum-width: 1920;
+  --header-max-width: 1280px;
 }
 
 nav {
@@ -19,7 +19,7 @@ footer p {
 
 header,
 footer {
-  max-width: var(--header-maximum-width);
+  max-width: var(--header-max-width);
 }
 
 h1,

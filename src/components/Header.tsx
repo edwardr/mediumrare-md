@@ -8,8 +8,8 @@ export default function Header() {
           <li><a href="#section-1">Menu Item 2</a></li>
           <li><a href="#">Dropdown Menu Item</a>
             <ul>
-              <li><a href="#">Sublink with a long name</a></li>
-              <li><a href="#">Short sublink</a></li>
+              <li><a href="#">Sublink</a></li>
+              <li><a href="#">Sublink</a></li>
             </ul>
           </li>
         </ul>

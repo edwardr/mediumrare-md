@@ -20,6 +20,7 @@ export function getSortedPostsData() {
       ...matterResult.data,
     };
   });
+
   // Sort posts by date
   return allPostsData.sort((a, b) => {
     if (a.date < b.date) {
@@ -41,7 +42,7 @@ export function getAllPostSlugs() {
   });
 }
 
-export async function getPostData(slug:string) {
+export async function getPostData(slug: string) {
   const fullPath = path.join(postsDirectory, `${slug}.md`);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const matterResult = matter(fileContents);

@@ -26,7 +26,7 @@ export default function Blog({ posts }: BlogCollection) {
         <main className={`container ${font.className}`}>
           {posts.map((post: BlogPost) => {
             return(
-              <Snippet {...post} />
+              <Snippet key={post.slug} {...post} />
             )
           })}
         </main>
