@@ -51,7 +51,6 @@ export async function getPostData(slug: string) {
     .use(html)
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
-  console.log(matterResult);
   return {
     slug,
     contentHtml,
